@@ -1,13 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
+
 <body>
-    
+    <nav>
+        <div class="container d-flex">
+            <div class="nav__logo__image">
+                <img src="images/Lookscout.png" alt="logo image">
+            </div>
+            <ul class="nav__links d-flex">
+                <li>Home</li>
+                <li>Our Products</li>
+                <li>Resources <i class="fa-solid fa-chevron-down"></i></li>
+                <li>Contacts</li>
+            </ul>
+            <div class="nav__btns">
+                <button class="btn__singUp"><a href="#">Sign Up</a></button>
+                <button class="btn__login btn__blue"><a href="#">Log in</a></button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home__section">
+        <div class=".container">
+            <div class="home__title">
+                <span>1% OF THE INDUSTRY</span>
+                <h1>Hype got you here. Stay for the support.</h1>
+            </div>
+            <div class="home__content d-flex">
+                <div class="home__content__desc">
+                    <h2>Welcome to your new digital reality that will rock your world.</h2>
+                    <p>Let us help you take you from zero to serious business and beyond.
+                        Our no-strings attached free trial lets you test our product today.</p>
+                </div>
+                <div class="home__content__submit">
+                    <input type="text" placeholder="Enter your email">
+                    <button class="btn__blue">Submit</button>
+                    <span>Subscribe to our newsletter</span>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="js/index.js"></script>
 </body>
+
 </html>

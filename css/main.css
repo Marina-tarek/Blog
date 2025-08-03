@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: rgba(43, 99, 217, 1);
+    --main-color: rgba(67, 126, 247, 1);
+    --gray-color: rgba(95, 109, 126, 1);
+    --light-gray-color: rgba(165, 172, 186, 1);
+    --base-color: rgba(255, 255, 255, 1);
+    --light-base-color: rgba(177, 204, 251, 1);
+    --black-color: rgba(39, 45, 55, 1);
+
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+}
+
+h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    color: var(--black-color);
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.01px;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: rgba(249, 249, 249, 1);
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    color: var(--main-color);
+}
+
+.btn__blue {
+    background-color: var(--main-color);
+    color: var(--base-color);
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 600;
+    border: 0;
+}
+.btn__blue a{
+    color: var(--base-color);
+}
+.d-flex {
+    display: flex;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+input[placeholder]{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+/* navbar */
+nav{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+border-bottom: 1px solid rgba(234, 235, 240, 1);
+}
+nav .container {
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.btn__singUp {
+    border: 0;
+    background-color: transparent;
+    width: 57px;
+    height: 22px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.btn__login{
+    border-radius: 6px;
+    width: 80px;
+    height: 46px;
+}
+.home__title{
+    width: 40%;
+    margin: 0 auto;
+}
+.home__title span{
+    color: var(--main-color);
+
+}
+.home__content{
+    background-color: var(--bg-color);
+}
