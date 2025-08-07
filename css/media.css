@@ -1,8 +1,121 @@
-@media screen and (max-width: 768px)
-{
+/* @media screen and (max-width: 1150px){
+
+    .home__title{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 900px){
+    .home__title{
+        width: 75%;
+    }
+}
+@media screen and (max-width: 760px) {
+    .container {
+    width: 90%;
+}
+nav .container{
+    justify-content: space-between;
+}
+    .nav__btns,
+    .nav__links {
+        display: none;
+    }
+
+    .bar__menu__links {
+        display: flex;
+    }
+  
+    .home__title{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+h1{
+        font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+    .home__section{
+        height: 40vh;
+    }
+
+} */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   .container {
+    width: 85%;
+    margin: 0 auto;
+}
+.home__title{
+    margin: 0 auto;
+    width: 65%;
+}
 
 }
-@media screen and (max-width: 550px)
-{
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 700px) {
+
+    h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    color: var(--black-color);
+    letter-spacing: -0.04px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    color: var(--base-color);
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.01px;
+}
+/* home section */
+.home__title {
+    width: 85%;
+}
+/* ===== */
+.call__to__action .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.call_to_action_desc {
+    width: 50%;
+}
+/* toolTip__section */
+.toolTip__section .container{
+    display: flex;
+
+}
+
+
+.blog__item{
+    width: 45%;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+      .home__title {
+        width: 45%;
+    }
 }
