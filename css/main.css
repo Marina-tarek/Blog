@@ -185,7 +185,6 @@ nav ul li a {
 .bar__menu__links {
     display: flex;
 }
-
 /* home section */
 .home__section {
     background-color: var(---bg-light-gray);
@@ -203,7 +202,7 @@ nav ul li a {
     font-weight: 600;
 }
 
-
+/* home section */
 /* call to action section */
 .call__to__action {
     background-color: var(--bg-color);
@@ -238,69 +237,59 @@ nav ul li a {
     color: var(--light-base-color);
 }
 
-/* toolTip__section */
-.toolTip__section {
+/*blog section  */
+.blog_section {
     padding: 32px 0;
 }
 
-.toolTip__section .container {
+.blog_section .container {
     flex-direction: column;
     gap: 20px;
 }
 
-.toolTip_main_section_desc {
+.blog_main_sec_desc {
     flex-direction: column;
     gap: 10px;
 }
 
-.toolTip_side_section {
+.blog_cards {
     flex-direction: column;
     gap: 30px;
     width: 100%;
 }
 
-.toolTip_side_section_desc {
+.blog_card_desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.toolTip__section p,
-.toolTip__section span {
+.blog_section p,
+.blog_section span {
     color: var(--gray-color);
-    /* margin-bottom: 10px; */
 }
 
-
-/* .toolTip__section .container div {
-    margin-bottom: 20px;
-} */
-
-/* .toolTip_side_section>div{
-    margin-bottom: 15px;
-} */
-.toolTip__section .toolTip_main_sec_img img {
+.blog_section .toolTip_main_sec_img img {
     height: 18.75rem;
 }
 
-.toolTip__section img {
+.blog_section img {
     width: 100%;
     height: 185px;
     margin-bottom: 15px;
     border-radius: 10px;
     object-fit: fill;
 }
-
-/* blog section  */
-.blog__posts__section {
+/*latest blog section  */
+.latest_blog_section {
     padding: 30px 0;
 }
 
-.blog__title {
+.latest_blog__title {
     padding-bottom: 30px;
 }
 
-.blog__title h2 {
+.latest_blog__title h2 {
     color: var(--black-color);
     text-align: center;
     margin-bottom: 15px;
@@ -308,7 +297,7 @@ nav ul li a {
     margin: 0 auto;
 }
 
-.blog__title h2::after {
+.latest_blog__title h2::after {
     content: " ";
     display: block;
     width: 138px;
@@ -318,7 +307,7 @@ nav ul li a {
 
 }
 
-.blog__items {
+.latest_blog__items {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -328,8 +317,6 @@ nav ul li a {
 }
 
 .blog__item {
-    /* width: 33%; */
-    /* padding: 15px 0; */
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -393,7 +380,6 @@ nav ul li a {
 }
 
 /* footer section */
-
 .end_thePage {
     background-color: rgba(21, 27, 40, 1);
     padding: 30px 0;
@@ -481,7 +467,7 @@ nav ul li a {
 /* media query */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 400px) {
-    .blog__title h2 {
+    .latest_blog__title h2 {
         width: 60%;
     }
 }
@@ -519,7 +505,7 @@ nav ul li a {
     }
 
     /* blog section */
-    .blog__title h2 {
+    .latest_blog__title h2 {
         width: 45%;
     }
 
@@ -527,11 +513,11 @@ nav ul li a {
         width: 45%;
     }
 
-    .blog__posts__section {
+    .latest_blog_section {
         padding: 40px 0;
     }
 
-    .blog__title {
+    .latest_blog__title {
         padding-bottom: 40px;
     }
 
@@ -603,32 +589,32 @@ nav ul li a {
         border-radius: 0 6px 6px 0;
     }
 
-    /* toolTip__section */
-    .toolTip__section {
+    /* blog_section */
+    .blog_section {
         padding: 48px 0;
     }
 
-    .toolTip_side_section>div {
+    .blog_cards>div {
         display: flex;
         justify-content: space-between;
     }
 
-    .toolTip_side_sec_img {
+    .blog_card_image {
         width: 30%;
     }
 
-    .toolTip_side_section_desc {
+    .blog_card_desc {
         justify-content: space-around;
         gap: 0;
     }
 
-    .toolTip_side_section img {
+    .blog_cards img {
         height: 10.375rem;
         /* width: 188px; */
         margin: 0;
     }
 
-    .toolTip_side_section_desc {
+    .blog_card_desc {
         width: 65%;
 
     }
@@ -695,7 +681,7 @@ nav ul li a {
     .call__to__action,
     .contact__us .container,
     .end_thePage,
-    .toolTip__section {
+    .blog_section {
         padding: 65px 0;
     }
 
@@ -720,15 +706,15 @@ nav ul li a {
     }
 
 
-    .blog__posts__section {
+    .latest_blog_section {
         padding: 55px 0;
     }
 
-    .blog__title {
+    .latest_blog__title {
         padding-bottom: 55px;
     }
 
-    .blog__title h2::after {
+    .latest_blog__title h2::after {
         transform: translate(100%, 100%);
     }
 
@@ -801,45 +787,45 @@ nav ul li a {
     }
 
 
-    .toolTip__section .container {
+    .blog_section .container {
         gap: 32px;
     }
 
-    .toolTip__section .container {
+    .blog_section .container {
         flex-direction: row;
         justify-content: space-between;
     }
 
-    .toolTip_main_section_desc {
+    .blog_main_sec_desc {
         gap: 20px;
     }
 
-    .toolTip_side_section {
+    .blog_cards {
         width: 50%;
         gap: 25px;
     }
 
-    .toolTip_main_section {
+    .blog_main_section {
         width: 47%;
     }
 
-    .toolTip__section .toolTip_main_section img {
+    .blog_section .blog_main_section img {
         height: 13.125rem;
     }
 
-    .toolTip__section .toolTip_side_section img {
+    .blog_section .blog_cards img {
         height: 7.375rem;
     }
 
-    .toolTip_side_sec_img {
+    .blog_card_image {
         width: 32%;
     }
 
-    .blog__title h2::after {
+    .latest_blog__title h2::after {
         transform: translate(140%, 100%);
     }
 
-    .blog__items {
+    .latest_blog__items {
         gap: 35px;
     }
 

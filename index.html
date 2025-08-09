@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    <title>LookScount</title>
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,12 +15,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <!-- link css  -->
     <link rel="stylesheet" href="css/main.css">
 
 </head>
 
 <body>
+    <!-- start navbar -->
     <nav>
         <div class="container d-flex">
             <div class="nav__content">
@@ -41,7 +42,8 @@
             <div class="bar__menu__links"><i class="fa-solid fa-bars"></i></div>
         </div>
     </nav>
-
+    <!-- end navbar -->
+    <!-- start home  -->
     <section class="home__section d-flex" id="home">
         <div class="container ">
             <div class="home__title">
@@ -50,6 +52,8 @@
             </div>
         </div>
     </section>
+    <!-- end home  -->
+    <!-- start subscribe -->
     <section class="call__to__action ">
         <div class="container d-flex">
             <div class="call_to_action_desc">
@@ -66,112 +70,121 @@
             </div>
         </div>
     </section>
-    <section class="toolTip__section ">
-        <div class="container d-flex">
-            <div class="toolTip_main_section">
-                <div class="toolTip_main_sec_img">
-                    <img src="images/Tooltip.png" alt="Tooltip images">
+    <!-- end subscribe -->
+    <main>
+        <!-- start blog section -->
+        <section class="blog_section ">
+            <div class="container d-flex">
+                <div class="blog_main_section">
+                    <div class="toolTip_main_sec_img">
+                        <img src="images/Tooltip.png" alt="Tooltip images">
+                    </div>
+                    <div class="blog_main_sec_desc d-flex">
+                        <h3>Reach your users with new tools.</h3>
+                        <p>Efficiently unleash cross-media information without cross-media value. Quickly
+                            maximize.Efficiently unleash cross-media information without cross-media value. Quickly
+                            maximize.Efficiently unleash cross-media.</p>
+                        <span>25 Apr 2022 </span>
+                    </div>
                 </div>
-                <div class="toolTip_main_section_desc d-flex">
-                    <h3>Reach your users with new tools.</h3>
-                    <p>Efficiently unleash cross-media information without cross-media value. Quickly
-                        maximize.Efficiently unleash cross-media information without cross-media value. Quickly
-                        maximize.Efficiently unleash cross-media.</p>
-                    <span>25 Apr 2022 </span>
-                </div>
-            </div>
 
-            <div class="toolTip_side_section d-flex">
-                <div>
-                    <div class="toolTip_side_sec_img">
-                        <img src="images/Container.png" alt="container image">
+                <div class="blog_cards d-flex">
+                    <div class="blog_card">
+                        <div class="blog_card_image">
+                            <img src="images/Container.png" alt="container image">
+                        </div>
+                        <div class="blog_card_desc">
+                            <h3>Reach your users with new tools</h3>
+                            <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize.
+                            </p>
+                            <span>25 Apr 2022 </span>
+                        </div>
                     </div>
-                    <div class="toolTip_side_section_desc">
-                        <h3>Reach your users with new tools</h3>
-                        <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize.</p>
-                        <span>25 Apr 2022 </span>
+                    <div class="blog_card">
+                        <div class="blog_card_image">
+                            <img src="images/Container (1).png" alt="container image">
+                        </div>
+                        <div class="blog_card_desc">
+                            <h3>Faster ways to reach your customer</h3>
+                            <p>Completely synergize resource taxing relationships via premier niche markets.</p>
+                            <div><span>25 Apr 2022 </span> <span> Blog theme</span></div>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div class="toolTip_side_sec_img">
-                        <img src="images/Container (1).png" alt="container image">
-                    </div>
-                    <div class="toolTip_side_section_desc">
-                        <h3>Faster ways to reach your customer</h3>
-                        <p>Completely synergize resource taxing relationships via premier niche markets.</p>
-                        <div><span>25 Apr 2022 </span> <span> Blog theme</span></div>
-                    </div>
-                </div>
-                <div>
-                    <div class="toolTip_side_sec_img">
-                        <img src="images/Container (2).png" alt="container image">
-                    </div>
-                    <div class="toolTip_side_section_desc">
-                        <h3>Revolutionizing the Design Industry</h3>
-                        <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize.</p>
-                        <div><span>25 Apr 2022 </span> <span> Blog theme</span></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="blog__posts__section">
-        <div class="container">
-            <div class="blog__title">
-                <h2>Latest Blog Posts</h2>
-            </div>
-            <div class="blog__items">
-                <div class="blog__item">
-                    <div><img src="images/Rectangle 1.png" alt="blog image"></div>
-                    <div class="blog__item__content">
-                        <span>25 Apr 2022 </span>
-                        <h3>Organize your digital assets with a new methodology and there.</h3>
-                        <a href="#">Learn more <i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="blog__item">
-                    <div><img src="images/Rectangle 1 (1).png" alt="blog image"></div>
-                    <div class="blog__item__content">
-                        <span>25 Apr 2022 </span>
-                        <h3>Organize your digital assets with a new methodology and there.</h3>
-                        <a href="#">Learn more <i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="blog__item">
-                    <div><img src="images/Rectangle 1 (2).png" alt="blog image"></div>
-                    <div class="blog__item__content">
-                        <span>25 Apr 2022 </span>
-                        <h3>Organize your digital assets with a new methodology and there.</h3>
-                        <a href="#">Learn more <i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="blog__item">
-                    <div><img src="images/Rectangle 1 (3).png" alt="blog image"></div>
-                    <div class="blog__item__content">
-                        <span>25 Apr 2022 </span>
-                        <h3>Organize your digital assets with a new methodology and there.</h3>
-                        <a href="#">Learn more <i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="blog__item">
-                    <div><img src="images/Rectangle 1 (4).png" alt="blog image"></div>
-                    <div class="blog__item__content">
-                        <span>25 Apr 2022 </span>
-                        <h3>Organize your digital assets with a new methodology and there.</h3>
-                        <a href="#">Learn more <i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="blog__item">
-                    <div><img src="images/Rectangle 1 (5).png" alt="blog image"></div>
-                    <div class="blog__item__content">
-                        <span>25 Apr 2022 </span>
-                        <h3>Organize your digital assets with a new methodology and there.</h3>
-                        <a href="#">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                    <div class="blog_card">
+                        <div class="blog_card_image">
+                            <img src="images/Container (2).png" alt="container image">
+                        </div>
+                        <div class="blog_card_desc">
+                            <h3>Revolutionizing the Design Industry</h3>
+                            <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize.
+                            </p>
+                            <div><span>25 Apr 2022 </span> <span> Blog theme</span></div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <!-- end blog section -->
+        <!-- start latest blog section -->
+        <section class="latest_blog_section">
+            <div class="container">
+                <div class="latest_blog__title">
+                    <h2>Latest Blog Posts</h2>
+                </div>
+                <div class="latest_blog__items">
+                    <div class="blog__item">
+                        <div><img src="images/Rectangle 1.png" alt="blog image"></div>
+                        <div class="blog__item__content">
+                            <span>25 Apr 2022 </span>
+                            <h3>Organize your digital assets with a new methodology and there.</h3>
+                            <a href="#">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="blog__item">
+                        <div><img src="images/Rectangle 1 (1).png" alt="blog image"></div>
+                        <div class="blog__item__content">
+                            <span>25 Apr 2022 </span>
+                            <h3>Organize your digital assets with a new methodology and there.</h3>
+                            <a href="#">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="blog__item">
+                        <div><img src="images/Rectangle 1 (2).png" alt="blog image"></div>
+                        <div class="blog__item__content">
+                            <span>25 Apr 2022 </span>
+                            <h3>Organize your digital assets with a new methodology and there.</h3>
+                            <a href="#">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="blog__item">
+                        <div><img src="images/Rectangle 1 (3).png" alt="blog image"></div>
+                        <div class="blog__item__content">
+                            <span>25 Apr 2022 </span>
+                            <h3>Organize your digital assets with a new methodology and there.</h3>
+                            <a href="#">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="blog__item">
+                        <div><img src="images/Rectangle 1 (4).png" alt="blog image"></div>
+                        <div class="blog__item__content">
+                            <span>25 Apr 2022 </span>
+                            <h3>Organize your digital assets with a new methodology and there.</h3>
+                            <a href="#">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="blog__item">
+                        <div><img src="images/Rectangle 1 (5).png" alt="blog image"></div>
+                        <div class="blog__item__content">
+                            <span>25 Apr 2022 </span>
+                            <h3>Organize your digital assets with a new methodology and there.</h3>
+                            <a href="#">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end latest blog section -->
+    </main>
     <section id="contact_us" class="contact__us">
         <div class="container">
             <span>1% OF THE INDUSTRY</span>
@@ -182,6 +195,7 @@
             </div>
         </div>
     </section>
+    <!-- start footer -->
     <footer class="end_thePage ">
         <div class="container ">
             <div class="end_thepage_content">
@@ -230,6 +244,7 @@
             </div>
         </div>
     </footer>
+    <!-- end footer -->
     <script src="js/index.js"></script>
 </body>
 
