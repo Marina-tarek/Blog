@@ -23,15 +23,17 @@
 <body>
     <nav>
         <div class="container d-flex">
-            <div class="nav__logo__image">
-                <img src="images/Lookscout.png" alt="logo image">
+            <div class="nav__content">
+                <div class="nav__logo__image">
+                    <img src="images/Lookscout.png" alt="logo image">
+                </div>
+                <ul class="nav__links d-flex">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="">Our Products</a></li>
+                    <li>Resources <i class="fa-solid fa-chevron-down"></i></li>
+                    <li><a href="#contact_us">Contacts</a></li>
+                </ul>
             </div>
-            <ul class="nav__links d-flex">
-                <li>Home</li>
-                <li>Our Products</li>
-                <li>Resources <i class="fa-solid fa-chevron-down"></i></li>
-                <li>Contacts</li>
-            </ul>
             <div class="nav__btns">
                 <button class="btn__singUp"><a href="#">Sign Up</a></button>
                 <button class="btn__login btn__blue"><a href="#">Log in</a></button>
@@ -40,7 +42,7 @@
         </div>
     </nav>
 
-    <section class="home__section d-flex">
+    <section class="home__section d-flex" id="home">
         <div class="container ">
             <div class="home__title">
                 <span>1% OF THE INDUSTRY</span>
@@ -49,28 +51,29 @@
         </div>
     </section>
     <section class="call__to__action ">
-        <div class="container">
+        <div class="container d-flex">
             <div class="call_to_action_desc">
                 <h2>Welcome to your new digital reality that will rock your world.</h2>
                 <p>Let us help you take you from zero to serious business and beyond.
                     Our no-strings attached free trial lets you test our product today.</p>
             </div>
-            <div class="call_to_action_submit d-flex">
-                <input type="text" placeholder="Enter your email">
+            <div class="call_to_action_submit ">
+<div class="inner_call_to_action_submit d-flex">
+                    <input type="text" placeholder="Enter your email">
                 <button class="btn_submit btn__blue">Submit</button>
                 <span>Subscribe to our newsletter</span>
+</div>
             </div>
         </div>
     </section>
-    <section class="toolTip__section p-70">
-        <div class="container">
+    <section class="toolTip__section ">
+        <div class="container d-flex">
             <div class="toolTip_main_section">
-                <div>
+                <div class="toolTip_main_sec_img">
                     <img src="images/Tooltip.png" alt="Tooltip images">
                 </div>
-                <div>
-                    <h3>Reach your users with new tools. Reach your users with new tools. Reach your users with new
-                        tools.</h3>
+                <div class="toolTip_main_section_desc d-flex">
+                    <h3>Reach your users with new tools.</h3>
                     <p>Efficiently unleash cross-media information without cross-media value. Quickly
                         maximize.Efficiently unleash cross-media information without cross-media value. Quickly
                         maximize.Efficiently unleash cross-media.</p>
@@ -78,35 +81,35 @@
                 </div>
             </div>
 
-            <div class="toolTip_side_section">
+            <div class="toolTip_side_section d-flex">
                 <div>
-                    <div>
+                    <div class="toolTip_side_sec_img">
                         <img src="images/Container.png" alt="container image">
                     </div>
-                    <div>
+                    <div class="toolTip_side_section_desc">
                         <h3>Reach your users with new tools</h3>
                         <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize.</p>
                         <span>25 Apr 2022 </span>
                     </div>
                 </div>
                 <div>
-                    <div>
+                    <div class="toolTip_side_sec_img">
                         <img src="images/Container (1).png" alt="container image">
                     </div>
-                    <div>
+                    <div class="toolTip_side_section_desc">
                         <h3>Faster ways to reach your customer</h3>
                         <p>Completely synergize resource taxing relationships via premier niche markets.</p>
-                        <span>25 Apr 2022 </span> <span>Blog theme</span>
+                        <div><span>25 Apr 2022 </span> <span> Blog theme</span></div>
                     </div>
                 </div>
                 <div>
-                    <div>
+                    <div class="toolTip_side_sec_img">
                         <img src="images/Container (2).png" alt="container image">
                     </div>
-                    <div>
+                    <div class="toolTip_side_section_desc">
                         <h3>Revolutionizing the Design Industry</h3>
                         <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize.</p>
-                        <span>25 Apr 2022 </span> <span>Blog theme</span>
+                        <div><span>25 Apr 2022 </span> <span> Blog theme</span></div>
                     </div>
                 </div>
             </div>
@@ -169,19 +172,21 @@
             </div>
         </div>
     </section>
-    <section class="contact__us">
+    <section id="contact_us" class="contact__us">
         <div class="container">
             <span>1% OF THE INDUSTRY</span>
             <h2>Welcome to your new digital reality that which will rock your world truly at all.</h2>
-            <div><button class="btn_contact_us_signUp">Sign up</button></div>
-            <div><button class="btn_contact_us_logIn btn__blue"> Log in</button></div>
+            <div class="contact_us_btn">
+                <div><button class="btn_contact_us_signUp">Sign up</button></div>
+                <div><button class="btn_contact_us_logIn btn__blue"> Log in</button></div>
+            </div>
         </div>
     </section>
     <footer class="end_thePage ">
         <div class="container ">
             <div class="end_thepage_content">
                 <div class="end_thePage_main_sec">
-                    <div><img src="images/Company Logo.png" alt="logo image"></div>
+                    <div class="footer__logo"><img src="images/Company Logo.png" alt="logo image"></div>
                     <p>Generate outside the box thinking with the possibility to targtet the low.</p>
                     <div class="end_thePage_submit">
                         <input type="text" placeholder="Enter email...">
