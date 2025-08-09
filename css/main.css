@@ -82,9 +82,11 @@ a i {
     margin-left: 10px;
     transition: all 0.3s ease;
 }
-a i:hover{
+
+a i:hover {
     transform: translateX(10px);
 }
+
 button {
     border: 0;
     font-size: 15px;
@@ -155,9 +157,11 @@ nav ul li {
     font-weight: 600;
     line-height: 22px;
 }
-nav ul li a{
+
+nav ul li a {
     color: var(--black-color);
 }
+
 .btn__singUp {
     background-color: transparent;
     padding: 10px;
@@ -238,6 +242,7 @@ nav ul li a{
 .toolTip__section {
     padding: 32px 0;
 }
+
 .toolTip__section .container {
     flex-direction: column;
     gap: 20px;
@@ -274,9 +279,10 @@ nav ul li a{
 /* .toolTip_side_section>div{
     margin-bottom: 15px;
 } */
- .toolTip__section .toolTip_main_sec_img img{
+.toolTip__section .toolTip_main_sec_img img {
     height: 18.75rem;
- }
+}
+
 .toolTip__section img {
     width: 100%;
     height: 185px;
@@ -402,7 +408,7 @@ nav ul li a{
 }
 
 .end_thePage_main_sec {
-   padding-bottom: 35px;
+    padding-bottom: 35px;
 }
 
 .end_thePage_main_sec p {
@@ -415,9 +421,11 @@ nav ul li a{
     color: var(--light-gray-color);
 
 }
-.end_thepage_content input:focus-within{
+
+.end_thepage_content input:focus-within {
     outline: 1px solid var(--main-color);
 }
+
 .end_thePage_submit {
     position: relative;
 }
@@ -438,9 +446,11 @@ nav ul li a{
 .end_thePage_lists>div {
     width: 45%;
 }
-        .end_thePage_lists h6 {
-        padding-bottom: 24px;
-    }
+
+.end_thePage_lists h6 {
+    padding-bottom: 24px;
+}
+
 .end_thePage_lists ul li,
 .end_thePage p {
     color: var(--light-gray-color);
@@ -454,7 +464,8 @@ nav ul li a{
     transition: all 0.3s ease;
     cursor: pointer;
 }
-.end_thePage_lists ul li:hover{
+
+.end_thePage_lists ul li:hover {
     transform: translateX(10px);
 }
 
@@ -486,11 +497,12 @@ nav ul li a{
         /* height: 45vh; */
         padding: 75px 0;
     }
-    .home__title h1{
-    width: 21.0625rem;
-    height: 8.125rem;
-    margin: 0 auto;
-}
+
+    .home__title h1 {
+        width: 21.0625rem;
+        height: 8.125rem;
+        margin: 0 auto;
+    }
 
     /* .home__title {
         margin: 0 auto;
@@ -501,11 +513,13 @@ nav ul li a{
     .call_to_action_desc {
         width: 95%;
     }
-.call__to__action .container{
-    gap: 25px;
-}
+
+    .call__to__action .container {
+        gap: 25px;
+    }
+
     /* blog section */
-        .blog__title h2 {
+    .blog__title h2 {
         width: 45%;
     }
 
@@ -522,6 +536,7 @@ nav ul li a{
     }
 
     .contact_us_btn {
+        padding-top: 20px;
         display: flex;
         justify-content: center;
     }
@@ -589,10 +604,6 @@ nav ul li a{
     }
 
     /* toolTip__section */
-
-    /* .toolTip__section .toolTip_side_section div {
-        margin: 0;
-    } */
     .toolTip__section {
         padding: 48px 0;
     }
@@ -620,6 +631,11 @@ nav ul li a{
     .toolTip_side_section_desc {
         width: 65%;
 
+    }
+
+    .contact__us .container h2 {
+        width: 90%;
+        margin: 0 auto;
     }
 
     .end_thepage_content {
@@ -688,6 +704,7 @@ nav ul li a{
         justify-content: space-between;
         gap: 0;
     }
+
     .call_to_action_desc {
         width: 55%;
     }
@@ -724,12 +741,16 @@ nav ul li a{
     }
 
     .contact__us .container h2 {
-        width: 75%;
+        width: 65%;
         margin: 0 auto;
     }
 
     .btn_contact_us_signUp {
         margin-top: 20px;
+    }
+
+    .contact_us_btn {
+        padding: 0;
     }
 
     .footer__logo {
@@ -775,11 +796,11 @@ nav ul li a{
         height: 328px;
     }
 
-    .call_to_action_desc, .call_to_action_submit{
+    .call_to_action_desc, .call_to_action_submit {
         width: 50%;
     }
 
-    
+
     .toolTip__section .container {
         gap: 32px;
     }
@@ -788,9 +809,11 @@ nav ul li a{
         flex-direction: row;
         justify-content: space-between;
     }
-.toolTip_main_section_desc{
-    gap: 20px;
-}
+
+    .toolTip_main_section_desc {
+        gap: 20px;
+    }
+
     .toolTip_side_section {
         width: 50%;
         gap: 25px;
@@ -799,6 +822,7 @@ nav ul li a{
     .toolTip_main_section {
         width: 47%;
     }
+
     .toolTip__section .toolTip_main_section img {
         height: 13.125rem;
     }
@@ -806,18 +830,23 @@ nav ul li a{
     .toolTip__section .toolTip_side_section img {
         height: 7.375rem;
     }
-.toolTip_side_sec_img{
-    width: 32%;
-}
+
+    .toolTip_side_sec_img {
+        width: 32%;
+    }
+
     .blog__title h2::after {
         transform: translate(140%, 100%);
     }
-.blog__items{
-    gap: 35px;
-}
-    .contact__us .container h2 {
-        width: 60%;
+
+    .blog__items {
+        gap: 35px;
     }
+
+    .contact__us .container h2 {
+        width: 55%;
+    }
+
     .end_thepage_content {
         padding-bottom: 50px;
     }
